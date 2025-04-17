@@ -29,7 +29,7 @@ export default function Search() {
 
         <div className="search-container flex justify-center row ">
             <form
-              className="flex justify-center max-w-[1024px] w-[1000px] group"
+              className="flex justify-center max-w-[1024px] w-[1000px]"
               onSubmit={handleSearch}
             >
               <input
@@ -37,11 +37,11 @@ export default function Search() {
                 value={userName}
                 onChange={(e) => setUserName(e.target.value)}
                 placeholder="Search summoner name + #tag"
-                className="outline-none bg-gray-700 w-full max-w-[xl] mx-full text-white group"
+                className="outline-none bg-gray-700 w-full max-w-[xl] mx-full text-white"
               />
               {/* TODO: add handleClick function */}
               <button
-                className="flex top-11 right-5 relative"
+                className="flex top-11 right-5 relative group"
                 type="submit"
               >
                 {/* TODO: make svg responsive with searchbar */}
@@ -57,7 +57,8 @@ export default function Search() {
                     role="img"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
-                    className="w-7 h-9 text-blue-400 hover:text-white transition-all duration-300 ease-in-out group-hover:text-yellow-300"
+                    className="w-7 h-9 text-blue-400 hover:text-white 
+                    transition-all duration-300 ease-in-out group-hover:text-yellow-300"
                   >
                     <path
                       data-v-390ceb07=""
