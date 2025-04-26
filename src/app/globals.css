@@ -170,3 +170,8 @@ input {
 .svg:hover {
   color: #de4c64;
 }
+
+.footer-content {
+  display: flex;
+  justify-content:center;
+}
